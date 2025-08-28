@@ -12,6 +12,7 @@ if not exist results mkdir results
 :: Run the PowerShell script
 powershell -ExecutionPolicy Bypass -File run_tests.ps1
 
-xcopy /s /y /i "results" "C:\Users\Tho Nguyen\AppData\Local\Jenkins\.jenkins\workspace\RobotFramework_CI\workspace_results"
+xcopy /s /y /i "results" "C:\Users\Tho Nguyen\AppData\Local\Jenkins\.jenkins\workspace\RobotFramework_CI\results"
 
 pause
+
