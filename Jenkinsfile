@@ -10,7 +10,7 @@ pipeline {
 
         stage('Archive Results') {
             steps {
-                archiveArtifacts artifacts: 'workspace_results/**'
+                archiveArtifacts artifacts: 'results/**'
             }
         }
     }
@@ -23,3 +23,4 @@ pipeline {
         }
     }
 }
+
